@@ -1,7 +1,7 @@
 ---
 title: MongoDB数据库无法远程连接的解决方案
 date: 2023/10/8 15:15:25
-cover: ./images/bg.jpg
+cover: https://cdn.jsdelivr.net/gh/fsry/myblog/source/images/bg.jpg
 coverWidth: 3840
 coverHeight: 2244
 categories: 工作中の奇怪问题
@@ -17,13 +17,13 @@ tags: MongoDB
 net:
   bindIp:127.0.0.1
 ```
-![mongodbconnection1.jpg](/screenshot/mongodbconnection1.jpg)
+![](./MongoDB数据库远程无法连接/MongoDBConnection1.JPG)
 修改为
 ```
 net:
   bindIp:0.0.0.0
 ```
-![mongodbconnection2.jpg](/screenshot/mongodbconnection2.jpg)
+![](./MongoDB数据库远程无法连接/MongoDBConnection2.JPG)
 
 **3. 重启mongoDB服务**
-![mongodbconnection3.jpg](/screenshot/mongodbconnection3.jpg)
+![](./MongoDB数据库远程无法连接/MongoDBConnection3.JPG)
