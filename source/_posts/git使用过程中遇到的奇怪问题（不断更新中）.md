@@ -1,6 +1,7 @@
 ---
 title: git使用过程中遇到的奇怪问题（更新ing）
-cover: ./images/git封面.JPG
+cover: https://cdn.jsdelivr.net/gh/fsry/myblog/source/images/git封面.JPG
+# cover: (../images/bg.JPG)
 coverWidth: 1980
 coverHeight: 1080
 date: 2023-10-11 15:58:38
