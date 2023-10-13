@@ -2,8 +2,8 @@
 title: {{ title }}
 date: {{ date }}
 cover: {{date}} / {{ title }}
-coverWidth: 
-coverHeight: 
+coverWidth: 1920
+coverHeight: 1080
 categories: 
 tags:
 ---
