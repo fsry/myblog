@@ -2,7 +2,7 @@
 title: MongoDB数据库无法远程连接的解决方案
 date: 2023/10/8 15:15:25
 cover: /images/bg.jpg
-coverWidth: 1980
+coverWidth: 1920
 coverHeight: 1080
 categories: 工作中の奇怪问题
 tags: MongoDB

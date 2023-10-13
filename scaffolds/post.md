@@ -1,11 +1,9 @@
 ---
 title: {{ title }}
 date: {{ date }}
-cover: ./images/bg.jpg
+cover: {{date}} / {{ title }}
 coverWidth: 
 coverHeight: 
-tags:
-permalink: 
 categories: 
 tags:
 ---
