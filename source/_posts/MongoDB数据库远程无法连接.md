@@ -11,7 +11,7 @@ tags: MongoDB
 ## 排查方向：
 **1. 确认防火墙是否关闭或防火墙规则是否正确**
 
-**2. 修改/MongoDB/Server/版本号/bin/mongod.cfg文件**
+**2. 修改 /MongoDB/Server/版本号/bin/mongod.cfg 文件**
 从
  ```
 net:
@@ -25,5 +25,5 @@ net:
 ```
 ![](./MongoDB数据库远程无法连接/MongoDBConnection2.JPG)
 
-**3. 重启mongoDB服务**
+**3. 重启 mongoDB 服务**
 ![](./MongoDB数据库远程无法连接/MongoDBConnection3.JPG)

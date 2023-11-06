@@ -50,44 +50,80 @@ menu:
         - icon-container
     我的朋友:
         - /PY.html
-    给我赞助:
-        - /donate.html
-        - icon-coffee
+    实用工具:
+        - /tools.html
+        - icon-appstore-fill
     关于博主:
         - /about.html
         - icon-info-circle
 
+
 widgets:
-- search
-- social
-- category
-- tagcloud
-- hitokoto # 一言 widget
-# - archive #settings: widgetAchive
-# - recent_posts
-# - link #settings: widgetLink
+    - name: search
+      enable: true
+      options: 
+        search: 
+            type: local # 可选engine（用搜索引擎搜索）、swiftype、或local（本地搜索）
+            url: https://cn.bing.com/search?q=site:nexmoe.com # 搜索引擎地址，在type为swiftype时无效 e.g:https://www.google.com/search?q={你的博客链接}
+            id: <swiftype-id> # swiftype的id，见启用教程。在type为engine时无效
+    - name: social
+      enable: true
+      options: 
+        social:
+            哔哩哔哩:
+                - https://space.bilibili.com/1731053
+                - icon-bilibili
+                - rgb(231, 106, 141)
+                - rgba(231, 106, 141, .1)
+            GitHub:
+                - https://github.com/fsry/
+                - icon-github
+                - rgb(25, 23, 23)
+                - rgba(25, 23, 23, .1)
+            Twitter:
+                - https://twitter.com/Sayen_x98
+                - icon-twitter
+                - rgb(59, 151, 239)
+                - rgba(59, 151, 239, .1)
+    - name: category
+      enable: true
+    - name: tagcloud
+      enable: true
+      options: 
+        maxTagcloud: 17  # 标签云组件显示的标签数量，0 表示不限制
+    - name: hitokoto # 一言 widget
+      enable: false
+      options: 
+        widgetHitokoto: # 一言组件
+            loading_placeholder: '🚀 获取中...' # 正在一言时的占位符
+            loading_error_placeholder: '🐞 获取失败...' # 加载一言失败时的占位符
+            category: # 一言句子类型（可选），不配置的话随机获取，详见 https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0
+    - name: archive #settings: widgetAchive
+      enable: false
+      options:
+        widgetAchive: #文章归档组件
+            archive_type: 'month' #按月展示还是按年展示
+            show_count: true  #是否展示数量
+    - name: recent_posts
+      enable: true
+    - name: link #settings: widgetLink
 
 maxTagcloud: 0  # 标签云组件显示的标签数量，0 表示不限制
 
 social:
-  QQ群: 
-    - https://jq.qq.com/?_wv=1027&k=5CfKHun
-    - icon-QQ
-    - rgb(249, 174, 8)
-    - rgba(249, 174, 8, .1)
   哔哩哔哩:
-    - https://space.bilibili.com/20238211
+    - https://space.bilibili.com/1731053
     - icon-bilibili
     - rgb(231, 106, 141)
     - rgba(231, 106, 141, .15)
   GitHub:
-    - https://github.com/nexmoe/
+    - https://github.com/fsry/
     - icon-github
     - rgb(25, 23, 23)
     - rgba(25, 23, 23, .15)
 
 # 自定义样式，启用后可在站点的source文件夹下新建custom.css自定义站点样式
-customstyle: false
+customstyle: true
 
 # 向搜索引擎验证你对站点的所有权，用于向搜索引擎提交 sitemap 和管理站点被搜索引擎收录的情况。
 site_verification: 
