@@ -1,6 +1,6 @@
 ---
 title: tick-trick
-cover: /2023/11/06/tick-trick/1031视频封面.jpg
+cover: 2023/10/27/tick-trick/1031视频封面.jpg
 coverWidth: 1920
 coverHeight: 1080
 date: 2023-10-27 17:35:00
