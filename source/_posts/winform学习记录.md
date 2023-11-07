@@ -1,6 +1,6 @@
 ---
 title: winform学习记录
-cover: 2023/11/06/winform学习记录/封面.JPG
+cover: /2023/11/06/winform学习记录/封面.JPG
 coverWidth: 1920
 coverHeight: 1080
 date: 2023-11-06 08:58:30
