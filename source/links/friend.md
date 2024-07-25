@@ -7,11 +7,11 @@ permalink: PY.html
 # 添加友链
 下面是我的一些信息哦~
 >  Name：fsry
->  Description：已经...不用再继续战斗下去了...
+>  Description：purr...purr...
 >  Link：https://blog.sayentt.com
->  LOGO: https://pic.imgdb.cn/item/654985abc458853aef2d6b78.webp
+>  LOGO: https://avatars.githubusercontent.com/u/53202887
 
 # 友情链接
-- [![Mst](https://avatars.githubusercontent.com/u/87525977)](https://msktmi.github.io/ "Mst")
-
+- [![Mst](https://avatars.githubusercontent.com/u/87525977)](https://blog.msktmi.com "Mst")
+- [![CvRain](https://avatars.githubusercontent.com/u/44913359)](https://cvrain.cloudvl.cn "CvRain")
 
