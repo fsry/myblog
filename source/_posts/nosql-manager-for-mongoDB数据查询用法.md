@@ -1,7 +1,7 @@
 ---
 title: nosql-manager-for-mongoDB数据查询用法
 date: 2024/07/25 08:25:55
-cover: /2024/07/25/query.png
+cover: /2024/07/25/nosql-manager-for-mongoDB数据查询用法/query.png
 coverWidth: 1920
 coverHeight: 1080
 categories: 工作中の奇怪问题
