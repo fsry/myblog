@@ -1,6 +1,6 @@
 ---
 title: git使用过程中遇到的奇怪问题（更新ing）
-cover: /2023/10/11/git使用过程中遇到的奇怪问题（不断更新中）/git封面.JPG
+cover: /2023/10/11/git使用过程中遇到的奇怪问题（不断更新中）/git封面.png
 coverWidth: 1920
 coverHeight: 1080
 date: 2023-10-11 15:58:38

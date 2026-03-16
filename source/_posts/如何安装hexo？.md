@@ -1,6 +1,6 @@
 ---
 title: 如何安装hexo？
-cover: /2024/10/07/如何安装hexo？/封面.jpg
+cover: /2024/10/07/如何安装hexo？/封面.png
 coverWidth: 1920
 coverHeight: 1080
 date: 2024-10-07 18:09:40
