@@ -1,6 +1,6 @@
 ---
 title: The-Modern-Software-Developer学习后感悟
-cover: '2026-03-16 06:03:51 / The-Modern-Software-Developer学习后感悟'
+cover: /2026/03/16/The-Modern-Software-Developer学习后感悟/封面.png
 coverWidth: 1920
 coverHeight: 1080
 date: 2026-03-16 14:03:51
